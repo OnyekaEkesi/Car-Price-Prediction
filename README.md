@@ -4,6 +4,8 @@
 
 In the dynamic automotive market, determining the value of a car based on its features is crucial for buyers and sellers alike. Car Price Prediction leverages machine learning to provide accurate estimates of car prices, aiding informed decision-making for both parties.
 
+**Detailed Report:** For an in-depth exploration of the project, read the detailed report on my Medium page: [Revving Up Insights: Predicting Car Prices with Regression Models and Model Interpretability](https://medium.com/@onyekaekesi/revving-up-insights-predicting-car-prices-with-regression-models-and-model-interpretability-2c4b86266a28).
+
 ### Table of Content
 
 1. [Project Name](#project-name)
@@ -20,8 +22,6 @@ In the dynamic automotive market, determining the value of a car based on its fe
 ## Project Overview
 
 Car Price Prediction is a machine learning project designed to predict car prices based on features such as make, model year, mileage, condition, fuel type, and transmission type. It provides insights into the key factors influencing car prices.
-
-**Detailed Report:** For an in-depth exploration of the project, read the detailed report on my Medium page: [Revving Up Insights: Predicting Car Prices with Regression Models and Model Interpretability](https://medium.com/@onyekaekesi/revving-up-insights-predicting-car-prices-with-regression-models-and-model-interpretability-2c4b86266a28).
 
 ## Getting Started
 
