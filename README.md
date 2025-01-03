@@ -99,6 +99,15 @@ Visualization of the model performance is shown below, other visuals are found i
 <img width='700' height='400' src = 'https://github.com/OnyekaEkesi/Car-Price-Prediction/blob/main/result.jpg?raw=true'>
 </p>  <br>
 
+**Streamlit App Prediction Instance**
+<p align = 'center'> 
+<img width='700' height='400' src = 'https://github.com/OnyekaEkesi/Car-Price-Prediction/blob/main/appPic1.jpg?raw=true'>
+</p>  <br>
+
+<p align = 'center'> 
+<img width='700' height='400' src = 'https://github.com/OnyekaEkesi/Car-Price-Prediction/blob/main/appPic2.jpg?raw=true'>
+</p>  <br>
+
 ## Results and Potential Enhancements
 
 This project uses a machine learning model to predict car prices based on input features. While the current implementation provides reliable predictions, there is room for improvement:
