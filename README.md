@@ -104,7 +104,7 @@ Visualization of the model performance is shown below, other visuals are found i
 This project uses a machine learning model to predict car prices based on input features. While the current implementation provides reliable predictions, there is room for improvement:
 
 - **Hyperparameter Tuning:** Optimize the model for better accuracy.
-- **Feature Engineering:** Add additional relevant features such as location or seller type.
+- **Feature Engineering:** Add additional relevant features to help improve model performance.
 - **Model Exploration:** Experiment with advanced models like neural networks.
 
 ## Deployment
