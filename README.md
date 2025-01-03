@@ -1,4 +1,4 @@
-## Project Name: Car Price Prediction
+# Project Name: Car Price Prediction
 
 ## Introduction
 
@@ -13,6 +13,11 @@ In the dynamic automotive market, determining the value of a car based on its fe
 3. [Getting Started](#getting-started)
    - [Prerequisites](#prerequisites)
    - [Setup Instructions](#setup-instructions)
+   - [Data Processing for Machine Learning](#data-processing-for-machine-learning)
+   - [Feature Engineering](#feature-engineering)
+   - [Feature Selection and Dimensionality Reduction](#feature-selection-and-dimensionality-reduction)
+   - [Model Building](#model-building)
+   - [Model Evaluation and Analysis](#model-evaluation-and-analysis)
    - [Visualization](#visualization)
    - [Results and Potential Enhancements](#results-and-potential-enhancements)
    - [Deployment](#deployment)
@@ -21,7 +26,7 @@ In the dynamic automotive market, determining the value of a car based on its fe
 
 ## Project Overview
 
-Car Price Prediction is a machine learning project designed to predict car prices based on features such as make, model year, mileage, condition, fuel type, and transmission type. It provides insights into the key factors influencing car prices.
+Car Price Prediction is a machine learning project designed to predict car prices based on features such as make, model year, mileage, condition, fuel type, and transmission type. The project provides insights into the key factors influencing car prices and applies advanced machine learning techniques to predict the market value of a car.
 
 ## Getting Started
 
@@ -40,10 +45,59 @@ Before starting, ensure you have the following installed on your system:
 3. Create a virtual environment (optional but recommended) to isolate dependencies.
 4. Activate the virtual environment and install the project dependencies listed in `requirements.txt`.
 
+## Data Processing for Machine Learning
+
+The data processing phase focuses on preparing the data for machine learning:
+
+- **Noise Detection and Handling:** Identify and address noisy data points.
+- **Handling Missing Values:** Use techniques such as imputation to handle missing data.
+- **Outlier Detection and Removal:** Identify and remove outliers that may distort model predictions.
+- **Categorical Encoding:** Convert categorical variables into numerical formats using encoding techniques.
+- **Rescaling:** Standardize or normalize numerical data to ensure uniformity.
+- **Data Splitting:** Divide the data into predictor variables (features) and target variables (car prices).
+- **Train/Validation/Test Split:** Split the data into training, validation, and test folds for model evaluation.
+
+## Feature Engineering
+
+Feature engineering is the process of deriving new features based on domain knowledge to improve model performance:
+
+- **Domain Knowledge Features:** Create new features based on insights from the automotive industry (e.g., age of the car, brand popularity).
+- **Polynomial/Basis Functions:** Introduce polynomial features to capture non-linear relationships between variables.
+- **Interaction Features:** Create interaction terms to model complex relationships between different features.
+
+## Feature Selection and Dimensionality Reduction
+
+In this step, we focus on selecting the most relevant features and reducing dimensionality:
+
+- **Manual Feature Selection:** Use domain knowledge and exploratory data analysis (EDA) to manually select relevant features.
+- **Automated Feature Selection:** Apply algorithms to automatically select the most impactful features.
+- **Dimensionality Reduction:** Reduce the number of features using techniques like PCA (Principal Component Analysis) to avoid overfitting and improve model performance.
+
+## Model Building
+
+This phase focuses on selecting and tuning the right machine learning algorithms:
+
+- **Algorithm Selection:** Choose suitable algorithms based on the nature of the problem (e.g., regression models, decision trees).
+- **Model Fitting and Tuning:** Fit the model and tune hyperparameters using techniques like grid search to optimize performance.
+- **Model Ranking and Selection:** Rank models based on evaluation metrics (e.g., RMSE, MAE) and assess underfitting and overfitting.
+- **Ensemble Models:** Combine the best-performing models into an ensemble to improve prediction accuracy.
+
+## Model Evaluation and Analysis
+
+Once models are trained, it's important to evaluate their performance:
+
+- **Cross-Validation:** Evaluate models using k-fold cross-validation to ensure robustness and avoid overfitting.
+- **True vs Predicted Plots:** Generate plots comparing true vs predicted values to visually assess model accuracy.
+- **Feature Importance:** Analyze feature importance to identify which variables have the greatest impact on car price predictions.
+
 ## Visualization
 
-Visualize data insights such as feature importance and distribution. Example visualizations include:
+Visualization of the model performance is shown below, many other visuals are found in the detailed report on Medium, find the link above:
 
+**MSE Comparison Plot**
+<p align = 'center'> 
+<img width='700' height='400' src = 'https://github.com/OnyekaEkesi/Movie_Review_Sentiment_Prediction/blob/main/src/combined_wordcloud.png?raw=true'>
+</p>  <br>
 - A scatter plot showing car prices against mileage.
 - A bar chart displaying average prices by car make.
 
@@ -57,7 +111,15 @@ This project uses a machine learning model to predict car prices based on input 
 
 ## Deployment
 
-The model can be deployed as a web application using Streamlit, making it accessible to users for real-time predictions. Further deployment to cloud platforms like AWS or Azure ensures scalability.
+The model is served through a **Streamlit** app, which allows users to input car features and get real-time price predictions. 
+
+To run the app locally, follow these steps:
+
+1. Install Streamlit: `pip install streamlit`
+2. Run the app: `streamlit run app.py`
+3. Open the app in your browser (default address: http://localhost:8501).
+
+Further deployment to cloud platforms like AWS or Azure ensures scalability and accessibility to a wider audience.
 
 ## Benefits
 
@@ -73,4 +135,3 @@ This is an individual project carried out by Onyekachukwu Ekesi, showcasing expe
 
 - [LinkedIn](https://linkedin.com/in/onyekachukwu-ekesi/)
 - [Medium Article](https://medium.com/@onyekaekesi/revving-up-insights-predicting-car-prices-with-regression-models-and-model-interpretability-2c4b86266a28)
-
