@@ -43,7 +43,7 @@ Before starting, ensure you have the following installed on your system:
 1. Clone the project repository to your local machine.
 2. Navigate to the project directory.
 3. Create a virtual environment (optional but recommended) to isolate dependencies.
-4. Activate the virtual environment and install the project dependencies listed in `requirements.txt`.
+4. Activate the virtual environment and install the project dependencies.
 
 ## Data Processing for Machine Learning
 
@@ -61,7 +61,7 @@ The data processing phase focuses on preparing the data for machine learning:
 
 Feature engineering is the process of deriving new features based on domain knowledge to improve model performance:
 
-- **Domain Knowledge Features:** Create new features based on insights from the automotive industry (e.g., age of the car, brand popularity).
+- **Domain Knowledge Features:** Create new features based on insights from the automotive industry (e.g., age of the car, Standard Description etc).
 - **Polynomial/Basis Functions:** Introduce polynomial features to capture non-linear relationships between variables.
 - **Interaction Features:** Create interaction terms to model complex relationships between different features.
 
@@ -77,9 +77,9 @@ In this step, we focus on selecting the most relevant features and reducing dime
 
 This phase focuses on selecting and tuning the right machine learning algorithms:
 
-- **Algorithm Selection:** Choose suitable algorithms based on the nature of the problem (e.g., regression models, decision trees).
+- **Algorithm Selection:** Choose suitable algorithms based on the nature of the problem (e.g., regression models, random forest etc).
 - **Model Fitting and Tuning:** Fit the model and tune hyperparameters using techniques like grid search to optimize performance.
-- **Model Ranking and Selection:** Rank models based on evaluation metrics (e.g., RMSE, MAE) and assess underfitting and overfitting.
+- **Model Ranking and Selection:** Rank models based on evaluation metrics (e.g., MSE, RMSE, MAE) and assess underfitting and overfitting.
 - **Ensemble Models:** Combine the best-performing models into an ensemble to improve prediction accuracy.
 
 ## Model Evaluation and Analysis
@@ -88,18 +88,16 @@ Once models are trained, it's important to evaluate their performance:
 
 - **Cross-Validation:** Evaluate models using k-fold cross-validation to ensure robustness and avoid overfitting.
 - **True vs Predicted Plots:** Generate plots comparing true vs predicted values to visually assess model accuracy.
-- **Feature Importance:** Analyze feature importance to identify which variables have the greatest impact on car price predictions.
+- **Feature Importance:** Analyze feature importance to identify which variables have the greatest impact on car price predictions, SHAP Plots, Partial Dependency Plots and Model Coefficient Plots were used in this project .
 
 ## Visualization
 
-Visualization of the model performance is shown below, many other visuals are found in the detailed report on Medium, find the link above:
+Visualization of the model performance is shown below, other visuals are found in the detailed report on Medium, find the link above:
 
 **MSE Comparison Plot**
 <p align = 'center'> 
-<img width='700' height='400' src = 'https://github.com/OnyekaEkesi/Movie_Review_Sentiment_Prediction/blob/main/src/combined_wordcloud.png?raw=true'>
+<img width='700' height='400' src = 'https://github.com/OnyekaEkesi/Car-Price-Prediction/blob/main/result.jpg?raw=true'>
 </p>  <br>
-- A scatter plot showing car prices against mileage.
-- A bar chart displaying average prices by car make.
 
 ## Results and Potential Enhancements
 
