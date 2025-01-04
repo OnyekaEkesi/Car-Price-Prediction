@@ -92,14 +92,14 @@ Once models are trained, it's important to evaluate their performance:
 
 ## Visualization
 
-Visualization of the model performance is shown below, other visuals are found in the detailed report on Medium, find the link above:
+Visualization of the model performance and streamlit app prediction, other visuals are found in the detailed report on Medium, find the link above:
 
 **MSE Comparison Plot**
 <p align = 'center'> 
 <img width='700' height='400' src = 'https://github.com/OnyekaEkesi/Car-Price-Prediction/blob/main/result.jpg?raw=true'>
 </p>  <br>
 
-**Streamlit App Prediction Instance**
+**Streamlit App Prediction**
 <p align = 'center'> 
 <img width='700' height='400' src = 'https://github.com/OnyekaEkesi/Car-Price-Prediction/blob/main/appPic1.jpg?raw=true'>
 </p>  <br>
