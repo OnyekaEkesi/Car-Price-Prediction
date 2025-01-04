@@ -92,7 +92,7 @@ Once models are trained, it's important to evaluate their performance:
 
 ## Visualization
 
-Visualization of the model performance and streamlit app prediction, other visuals are found in the detailed report on Medium, find the link above:
+Visualization of the MSE comparison plot and streamlit app prediction, other visuals are found in the detailed report on Medium, find the link above:
 
 **MSE Comparison Plot**
 <p align = 'center'> 
